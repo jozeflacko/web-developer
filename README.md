@@ -1,4 +1,4 @@
-Linux Basics
+# Linux Basics
 
 Why linux is important for developers!
 it is free operating system
@@ -9,7 +9,8 @@ Beauty of linux terminal is that when you will learn it, you will know how to ma
 You would not believe but with terminal your work will be much more effective.
 
 
-Terminal
+# Terminal
+
 The Linux command line is a text interface to your computer. Also referred to as the shell, terminal, console. In the terminal you can find directories, folders, create, rename and delete them, you can write documents or even send email. 
 Terminal gives you a TEXT USER INTERFACE
 We also know graphical user interfaces... For example Windows is a graphical user interface because you have nice icons there. 
@@ -17,9 +18,10 @@ Another example of a text user interface would be command line cmd in windows.
 Terminals are preinstalled on linux machines, that means you do not have to download anything and they are on every linux computer.
 Sometimes you will hear about “bash shell” -> this is the program which is running inside of the terminal.
 
-Now let's learn the basics we need: 
+# Now let's learn the basics we need: 
 
-Linux special characters:
+# Linux special characters:
+
 .   → means this current directory
 ..  → means parent directory
 /   → slash itself represents root directory but it is also a sign of a subdirectory
@@ -31,7 +33,8 @@ sudo → command which allows you run programs as a superuser
 		
 
 
-Most popular Linux (shell) commands: 
+# Most popular Linux (shell) commands: 
+
 man
 man is a command to show documentation for terminal commands!
 when you open man documentation you will see at the bottom left side colon “ : “.  That means you opened a terminal man program. To quit the program press on keyboard character  “  q  ”
@@ -144,7 +147,7 @@ highlight string ‘data’ in text in a file <filename>
 
 
 
-Version control
+# Version control
 
 What is the version control system? → It is a system where you can store documents, code, files (in general “source”) with preserving changes. In a system like this you can see how a document looks today and how it looked yesterday or 1 year ago. It keeps track what changes on which files were made by which person and you can also comment on your savings. You can even make duplications of the source and merge changes between duplications.
 
@@ -177,7 +180,7 @@ Sometimes you can find -RC at the end of the version number (example: 1.12.23-RC
 
 Versions starting with 0 are pre production products which still have not been initially officially released. example: “0.86”
 
-Git
+# Git
 It is a version control system
 currently the most popular!
 
@@ -309,7 +312,7 @@ Pull requests let you tell others about changes you've pushed to a branch in a r
 
 
 
-Test your linux and git skills
+## Test your linux and git skills
 turn on your computer with installed linux
 open terminal
 check if you have internet connection by calling command: ping google.com
@@ -392,7 +395,7 @@ What IDEs you know: Eclipse, IntelliJ, VisualStudio...VSCode, Atom
 
 
 
-OOP - Object oriented programming
+# OOP - Object oriented programming
 
 What is OOP (Object oriented programming)
 OOP basics
@@ -405,19 +408,13 @@ functional programming → Javascript!
 structured programming
 imperative programming
 
-
-
-
-
-JAVA
+# JAVA
 
 Building blocks of java are classes. Every java file has a class inside with the same name as a filename. For example MyClass.java will have inside defined a class MyClass { }.
 What is a class? → It is a template for creating objects. Objects are instances of classes. classes can have  fields and methods and a constructor.
 Fields will hold values
 methods will provide actions
 constructor helps to instantiate class
-
-
 
 For example You have a class called Baby. To describe baby you can write into class fields which will hold values 
 Inside of Baby you can define the name and height of the baby and a date when it was born. For example:
@@ -468,9 +465,7 @@ How many classes you can extends, how many interfaces you can implement
 How to iterate over an Array loop with for, while, forEach
 
 
-
-
-Maven Basics
+# Maven Basics
 
 What is maven
 Why we use maven
@@ -491,7 +486,7 @@ mvn clean vs mvn package
 Cheat sheet: https://www.jrebel.com/blog/maven-cheat-sheet
 
 
-Java Spring
+# Java Spring
 
 What is Spring framework: w3c spring
 What is difference between framework and library
